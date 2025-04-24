@@ -1,0 +1,85 @@
+/* Brand logo styling */
+
+  /* Navbar background and shadow */
+  .navbar {
+    background-color: #343a40 !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Nav links */
+  .navbar-nav .nav-link {
+    color: #f8f9fa !important;
+    transition: color 0.3s ease;
+    padding: 8px 15px;
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    color: #ffc107 !important; /* Yellow highlight on hover/active */
+  }
+  
+  /* Disabled link */
+  .navbar-nav .nav-link.disabled {
+    color: #6c757d !important;
+    cursor: not-allowed;
+  }
+
+  .collapse navbar-collapse{
+    background-color: #212529;
+  }
+
+
+  
+  
+  /* Dropdown menu */
+  .dropdown-menu {
+    background-color: #343a40;
+    border: none;
+    padding: 0.5rem 0;
+  }
+  
+  .dropdown-item {
+    color: #f8f9fa;
+    padding: 10px 20px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #495057;
+    color: #ffc107;
+  }
+  
+  /* Search input */
+  form[role="search"] .form-control {
+    background-color: #212529;
+    border: 1px solid #495057;
+    color: #fff;
+  }
+  
+  form[role="search"] .form-control::placeholder {
+    color: #ccc;
+  }
+  
+  /* Search button */
+  form[role="search"] .btn-outline-success {
+    color: #ffc107;
+    border-color: #ffc107;
+  }
+  
+  form[role="search"] .btn-outline-success:hover {
+    background-color: #ffc107;
+    color: #212529;
+    border-color: #ffc107;
+  }
+  
+  /* Toggler button */
+  .navbar-toggler {
+    border: 1px solid #f8f9fa;
+  }
+
+ #navbarSupportedContent.collapse.navbar-collapse
+
+  #contentTab {
+    flex: 1; 
+    padding-left: 20px; 
+}
